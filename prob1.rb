@@ -13,7 +13,7 @@ if response.code == 200
     conditions = weather_data["weather"].first["description"]
 
     puts "Current weather in #{city_name}:"
-    puts "Temperature: #{temp_fahrenheit.round(2)}°F"  # Display temperature in Fahrenheit
+    puts "Average Temperature: #{temp_fahrenheit.round(2)}°F"  # Display temperature in Fahrenheit
     puts "Humidity: #{humidity}%" #current humiditiy
     puts "Conditions: #{conditions}" # Expected conditions
 else
